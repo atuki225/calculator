@@ -2,6 +2,13 @@
   box-sizing: border-box;
   user-select: none;
 }
+body {
+  height: 100vh;
+  background-image: url(img/KAZ829003_TP_V.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 200px;
+}
 #calculator {
   width: 440px;
   text-align: center;
@@ -9,7 +16,7 @@
   background: rgb(212, 212, 212);
   padding: 20px;
   border-radius: 10px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 .top {
   display: flex;
@@ -19,8 +26,9 @@
 .top h1{
   position: absolute;
   left: 10px;
-  top: 0px;
+  top: 5px;
   margin: 0;
+  font-size: 24px;
 }
 .sorlar {
   width: 110px;
